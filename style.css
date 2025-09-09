@@ -1,35 +1,36 @@
-/* Simple CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     width: 100vw;
-}
-
-/* CSS code*/
-
-body{
-    background-color: lue;
+    font-family: sans-serif;
     display: grid;
-    grid-template-rows: 100px auto 100px;
-}
-
-header{
-    width: 100%;
-    background-color: lue;
+    grid-template-rows: 50px auto 150px;
 }
 
 main{
     width: 100%;
-    min-height: 500px;
-    background-color: range;
+    display: grid;
+    grid-template-columns: 300px auto;
+    min-height: 80vh;
+}
+
+header{
+    height: 100%;
+    width: 100%;
+    background: red;
 }
 
 footer{
+    background: red;
+}
+
+img {
+    height: 47%;
     width: 100%;
-    background-color: reen;
 }
