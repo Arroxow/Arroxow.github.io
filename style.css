@@ -22,10 +22,8 @@ main{
 
 header{
     height: 150px;
-    width: 500px;
+    width: 100%;
     background: black;
 }
 
-footer{
-    background: red;
-}
+footer{}
