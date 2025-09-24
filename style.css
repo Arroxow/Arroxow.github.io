@@ -21,9 +21,9 @@ main{
 }
 
 header{
-    height: 100%;
-    width: 100%;
-    background: red;
+    height: 150px;
+    width: 500px;
+    background: black;
 }
 
 footer{
