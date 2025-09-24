@@ -21,9 +21,9 @@ main{
 }
 
 header{
-    height: 150px;
+    height: 150%;
     width: 100%;
-    background: rgb(0, 29, 194);
+    background: #0000a5;
 }
 
 footer{}
